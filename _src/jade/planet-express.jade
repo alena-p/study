@@ -1,0 +1,272 @@
+<!DOCTYPE HTML>
+html
+  head
+    title Planet Express
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/planetexpress.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,800&subset=cyrillic" rel="stylesheet">
+  body
+    .container
+      header.main-header.clearfix
+        .logo
+          img.logo__image(src="img/logo.png" alt="Logotype" width="58" height="55")
+          strong.logo__name Planet<span>Express</span>
+        nav.main-menu
+          ul.main-menu__list
+            li.main-menu__item
+              a.main-menu__link(href="#") Home
+            li.main-menu__item
+              a.main-menu__link(href="#") Service
+            li.main-menu__item
+              a.main-menu__link.main-menu__link_active(href="#") Works
+              ul.submenu
+                li.submenu__item
+                  a.submenu__link(href="#") All
+                li.submenu__item
+                  a.submenu__link(href="#") Graphic
+                li.submenu__item
+                  a.submenu__link.submenu__link_active(href="#") Design
+                li.submenu__item
+                  a.submenu__link(href="#") Logo
+                li.submenu__item
+                  a.submenu__link(href="#") Website
+            li.main-menu__item
+              a.main-menu__link(href="#") About me
+            li.main-menu__item
+              a.main-menu__link(href="#") Contact
+
+      section.slider
+        .slider__wrapper
+          p.slider__title Slider
+          p.slider__text Sed laoreet magna at neque sollic-i-tudin, quis tristique ipsum per molestie. Class apt ent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum facilisis malesuada. Integer rhoncus laoreet velit
+          ul.slider__controls-list
+            li.slider__item.slider__item_prev
+              a.slider__link(href="#") Prev
+            li.slider__item
+              a.slider__link(href="#") 1
+            li.slider__item
+              a.slider__link(href="#") 2
+            li.slider__item
+              a.slider__link(href="#") 3
+            li.slider__item
+              a.slider__link(href="#") 4
+            li.slider__item
+              a.slider__link.slider__link_active 5
+            li.slider__item.slider__item_next
+              a.slider__link(href="#") Next
+
+      section.content
+        h2.title Welcome
+        p.text-content Donec rutrum molestie ipsum ut luctus. Maecenas finibus nisl eget odio bibendum, eu eleifend orci porttitor. Suspendisse vitae lorem facilisis elit tristique aliquet at ac nunc. Sed libero nulla, luctus vitae tempor a, faucibus egestas mauris. Nulla euismod, est ut rhoncus sodales. Cras a elit sed arcu tristique ullamcorper.
+        section.services
+          article.service.service_right
+            img.service__image(src="img/service1.jpg" alt="" width="650" height="333")
+            .service__description
+              h3.service__title Ui/Ux Design
+              .service__text
+                p Fusce posuere et males uada est, nec convallis euis mod. Nam eleifen elitinex placerat semper vitae et enim.
+                p Males uada est, nec convallis euis mod. Nam eleifen elitinex placerat.
+            a.service__more.service__more-left(href="#") Learn more
+          article.service
+            img.service__image.service__image_right(src="img/service2.jpg" alt="" width="650" height="333")
+            .service__description.service__description-left
+              h3.service__title Web Development
+              .service__text
+                p Phasellus interdum aliquam eros, vitae vestibulum elit malesuada ut. Integer nec ex accumsan, suscipit eros a, tempus nisi. Suspendisse pretium elementum.
+            a.service__more.service__more-right(href="#") Learn more
+          article.service.service_right
+            img.service__image(src="img/service3.jpg" alt="" width="650" height="333")
+            .service__description
+              h3.service__title Logotype
+              .service__text
+                p Donec feugiat eget ex quis efficitur. Aenean turpis mauris, vehicula eget lacus eget, posuere elementum arcu. In nec ultricies massa. Maecenas id sapien rutrum, blandit purus in, ultrices ex.
+            a.service__more.service__more-left(href="#") Learn more
+          article.service
+            img.service__image.service__image_right(src="img/service4.jpg" alt="" width="650" height="333")
+            .service__description.service__description-left
+              h3.service__title Branding
+              .service__text
+                p Nulla molestie, neque vel iaculis sodales, leo nulla egestas metus, non gravida nisl risus. Mauris commodo diam at tristique euismod. Phasellus non ex dolor. Nulla facilisi. Nam eleifend turpis.
+            a.service__more.service__more-right(href="#") Learn more
+
+        h2.title Gallery
+
+        ul.tags
+          li.tags__item
+            a.tags__link(href="#") All
+          li.tags__item
+            a.tags__link(href="#") Graphic
+          li.tags__item
+            a.tags__link(href="#") Design
+          li.tags__item
+            a.tags__link(href="#") Logo
+          li.tags__item
+            a.tags__link(href="#") Website
+          li.tags__item
+            a.tags__link.tags__link_active Photography
+          li.tags__item
+            a.tags__link(href="#") Branding
+          li.tags__item
+            a.tags__link(href="#") Video
+
+        p.text-content Mauris efficitur non enim eu porta. In hac habitasse platea dictumst. Phasellus interdum aliquam eros, vitae vestibulum elit malesuada ut. Integer nec ex accumsan, suscipit eros a, tempus nisi. Suspendisse pretium, mi sed consequat elementum.
+
+
+        section.gallery
+          .gallery__slide
+            img.gallery__image(src="img/gallery1.jpg" alt="" width="650" height="333")
+            .gallery__description
+              h3.gallery__title New New York
+              p.gallery__text Fusce posuere et males uada est, nec convallis euis mod. Nam eleifen elitinex placerat semper vitae et enim
+            a.gallery__more(href="#") View more
+          .gallery__slide
+            img.gallery__image(src="img/gallery2.jpg" alt="" width="650" height="333")
+            .gallery__description
+              h3.gallery__title New New York
+              p.gallery__text Fusce posuere et males uada est, nec convallis euis mod. Nam eleifen elitinex placerat semper vitae et enim
+            a.gallery__more(href="#") View more
+          .gallery__slide
+            img.gallery__image(src="img/gallery3.jpg" alt="" width="650" height="333")
+            .gallery__description
+              h3.gallery__title New New York
+              p.gallery__text Fusce posuere et males uada est, nec convallis euis mod. Nam eleifen elitinex placerat semper vitae et enim
+            a.gallery__more(href="#") View more
+          .gallery__slide
+            img.gallery__image(src="img/gallery4.jpg" alt="" width="650" height="333")
+            .gallery__description
+              h3.gallery__title New New York
+              p.gallery__text Fusce posuere et males uada est, nec convallis euis mod. Nam eleifen elitinex placerat semper vitae et enim
+            a.gallery__more(href="#") View more
+          .gallery__slide
+            img.gallery__image(src="img/gallery5.jpg" alt="" width="650" height="333")
+            .gallery__description
+              h3.gallery__title New New York
+              p.gallery__text Fusce posuere et males uada est, nec convallis euis mod. Nam eleifen elitinex placerat semper vitae et enim
+            a.gallery__more(href="#") View more
+          .gallery__slide
+            img.gallery__image(src="img/gallery6.jpg" alt="" width="650" height="333")
+            .gallery__description
+              h3.gallery__title New New York
+              p.gallery__text Fusce posuere et males uada est, nec convallis euis mod. Nam eleifen elitinex placerat semper vitae et enim
+            a.gallery__more(href="#") View more
+
+        h2.title About Me
+        p.text-content Vestibulum aliquam turpis quam, tincidunt semper lacus ultricies a. Pellentesque eu aliquet purus. Morbi eu erat in justo egestas euismod.
+
+        section.about
+          img.about__image(src="img/about.jpg" alt="" width="650" height="409")
+          h3.about__title Bender Bending<br>
+            span Rodriguez
+          section.social
+            a.social__link(href="#") Facebook
+            a.social__link(href="#") Google +
+            a.social__link(href="#") Twitter
+          .about__text.clearfix
+            p Cras et diam venenatis, vulputate sapien vitae, iaculis nulla. Donec et metus efficitur, vestibulum purus non, sodales urna. Fusce id rhoncus nisi. In sagittis feugiat convallis. Aliquam non lacinia ante. Etiam nunc lorem, posuere non lacus ac, blandit finibus mi.
+            p Curabitur nisi neque, eleifend in fermentum quis, lacinia ut nisl. Donec vel iaculis turpis, eu feugiat urna. Sed urna elit, sollicitudin non euismod sit amet, volutpat ac nulla. Quisqueconsectetur, mauris dignissim aliquet facilisis, diam quam condimentum lacus, ac pulvinar nulla velit eget elit. Vivamus maximus, leo nec vestibulum fringilla, lacus lectus mollis est, in imperdiet turpis lectus id mi. Morbi turpis eros, condimentum in magna vel, finibus varius velit. Donec pharetra magna in metus pretium, ac porttitor metus viverra. Etiam turpis nibh, euismod ac ligula at.
+            section.skills
+              h4.skills__title Skills
+              .skills__item
+                strong.skills__name HTML/CSS
+                .skills__box
+                  .skills__level.skills__level_html
+                  .skills_percent 80%
+              .skills__item
+                strong.skills__name Responsive Web Design
+                .skills__box
+                  .skills__level.skills__level_des
+                  .skills_percent 66%
+              .skills__item
+                strong.skills__name Droid Development
+                .skills__box
+                  .skills__level.skills__level_dev
+                  .skills_percent 92%
+              .skills__item
+                strong.skills__name Cookies
+                .skills__box
+                  .skills__level.skills__level_cook
+                  .skills_percent 38%
+            p Donec et metus efficitur, vestibulum purus non, sodales urna. Fusce id rhoncus nisi. In sagittis feugiat convallis.
+            p Aliquam non lacinia ante. Etiam nunc lorem, posuere non lacus ac, blandit finibus mi. Curabitur nisi neque, eleifend in fermentum quis, lacinia ut nisl.
+
+
+        h2.title Blog
+        p.text-content Cras feugiat tortor vitae ultrices euismod. Aliquam mollis urna ex, sit amet fermentum diam convallis at. Integer mauris eros, rutrum id pharetra nec, tincidunt quis sem.
+
+        section.blog
+          article.note.note_right
+            img.note__image(src="img/blog1.jpg" alt="" width="650" height="333")
+            .note__brif
+              date.note__date 20 January 2014 by Bender
+              h3.note__title Lorem ipsum dolor sit amet, consectetur adipiscing
+              .note__text
+                p Fusce posuere et males uada est, nec convallis euis mod. Nam eleifen elitinex placerat semper vitae et enim.
+                p Males uada est, nec convallis euis mod. Nam eleifen elitinex placerat.
+            a.note__more.note__more_left(href="#") Read more
+          article.note
+            img.note__image.note__image_right(src="img/blog2.jpg" alt="" width="650" height="333")
+            .note__brif.note__brif_left
+              date.note__date 20 January 2014 by Bender
+              h3.note__title Etiam suscipit odio quis ipsum facilisis dapibus
+              .note__text
+                p Proin quis cursus sapien. Suspendisse ultricies massa eu metus laoreet, eget molestie ex maximus. Nulla efficitur ipsum tortor, ac euismod felis placerat vel. Nulla facilisi. Pellentesque habitant morbi
+            a.note__more.note__more_right(href="#") Read more
+          article.note.note_right
+            img.note__image(src="img/blog3.jpg" alt="" width="650" height="333")
+            .note__brif
+              date.note__date 20 January 2014 by Bender
+              h3.note__title Vivamus semper a orci et posuere. Ut vulputate ante risus, placerat
+              .note__text
+                p Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Integer condimentum elementum ipsum a gravida. Sed est est, malesuada nec porttitor eu, aliquam non magn
+            a.note__more.note__more_left(href="#") Read more
+          article.note
+            img.note__image.note__image_right(src="img/blog4.jpg" alt="" width="650" height="333")
+            .note__brif.note__brif_left
+              date.note__date 20 January 2014 by Bender
+              h3.note__title Etiam suscipit odio quis ipsum facilisis dapibus
+              .note__text
+                p Proin quis cursus sapien. Suspendisse ultricies massa eu metus laoreet, eget molestie ex maximus. Nulla efficitur ipsum tortor, ac euismod felis placerat vel. Nulla facilisi. Pellentesque habitant morbi
+            a.note__more.note__more_right(href="#") Read more
+
+        h2.title Contact
+        p.text-content Cras feugiat tortor vitae ultrices euismod. Aliquam mollis urna ex, sit amet fermentum diam convallis at. Integer mauris eros, rutrum id pharetra nec, tincidunt quis sem.
+
+        section.contacts.clearfix
+          img.contacts__map(src="img/map.jpg" alt="" width="650" height="541")
+          .contacts-wrapper
+            .contacts__info
+              h3 Address
+              p ul. Lorem Street 123
+                br
+                |31-970 Kraków
+                br
+                |Polska
+              p Email: <a href="mailto:sample@mail.com">sample@mail.com</a><br/>Phone: <a href="tel:+49524180000">+49 5241 80-0 00</a><br/>Mobile: <a href="tel:+49524180000">+49 5241 80-0 00</a><br/>Facebook: <a href="facebook.com/username">facebook.com/username</a><br/>Twitter: <a href="twitter.com/username">twitter.com/username</a>
+            .contacts__form
+              form.feedback
+                label.feedback__label(for="name-field") Name
+                input.feedback__input(type="text" id="name-field")
+                label.feedback__label(for="email-field") Email
+                input.feedback__input(type="email" id="email-field")
+                label.feedback__label(for="message-field") Message
+                textarea.feedback__text(id="message-field" rows="7")
+                button.feedback__send(type="submit") Send
+
+      footer.main-footer
+        nav.footer-menu
+          ul.footer-menu__list
+            li.footer-menu__item
+              a.footer-menu__link(href="#") Home
+            li.footer-menu__item
+              a.footer-menu__link(href="#") Service
+            li.footer-menu__item
+              a.footer-menu__link(href="#") Works
+            li.footer-menu__item
+              a.footer-menu__link(href="#") About me
+            li.footer-menu__item
+              a.footer-menu__link(href="#") Contact
+        p.copyright © 2015 <span class="copyright__by"><b>Planet</b>Express</span> All right reserved
+
+
+
+
