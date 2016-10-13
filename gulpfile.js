@@ -13,11 +13,13 @@ var gulp = require('gulp'),
     browserSync = require('browser-sync').create();
 
 gulp.task('pages', function () {
-    return gulp.src('./_src/jade/*.jade')
+    return gulp.src('./_src/jade/**/*.jade')
+        .pipe(plumber())
         .pipe(jade({
             pretty: true
         }))
-        .pipe(gulp.dest('./'));
+        .pipe(plumber.stop())
+        .pipe(gulp.dest('.'));
 });
 
 gulp.task('styles', function () {
@@ -41,7 +43,7 @@ gulp.task('browser-sync', function() {
 });
 
 gulp.task('default', [ 'pages', 'styles', 'scripts', 'browser-sync' ], function () {
-    gulp.watch([ './_src/jade/*.jade' ], [ 'pages' ]);
+    gulp.watch([ './_src/jade/**/*.jade' ], [ 'pages' ]);
     gulp.watch([ './_src/style/*.styl' ], [ 'styles' ]);
     gulp.watch([ './_src/js/*.js' ], [ 'pages', 'scripts' ]);
 });
